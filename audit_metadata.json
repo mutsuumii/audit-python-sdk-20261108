@@ -1,0 +1,36 @@
+{
+  "source_repo": "descope/python-sdk",
+  "source_url": "https://github.com/descope/python-sdk",
+  "audit_date": "2026-11-08T10:01:12.149847",
+  "ai_model": "gemini-2.0-flash",
+  "findings_count": 3,
+  "severity_breakdown": {
+    "HIGH": 3
+  },
+  "findings": [
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/test_auth.py",
+      "line": 301
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/test_auth.py",
+      "line": 392
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/test_totp.py",
+      "line": 44
+    }
+  ]
+}
